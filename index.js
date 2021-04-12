@@ -1,8 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 const url = "http://jsonplaceholder.typicode.com/posts";
-http
-    .get(url, (res) => {
+http.get(url, (res) => {
         let rawData = "";
         let data;
         // data has been received
